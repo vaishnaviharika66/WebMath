@@ -25,6 +25,7 @@ public class GeneralMathPageTest {
 		generalmathpage.typeintrest("10");
 		generalmathpage.typeYear("1");
 		generalmathpage.clickonFindAmountOfIntrest();
+		
 	}
 
 }

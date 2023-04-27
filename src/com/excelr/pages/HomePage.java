@@ -25,7 +25,7 @@ public class HomePage {
 	 } 
 	 public MathForEveryOnePage ClickonmathForEveryoneLink() {
 	 driver.findElement(generalMathLink).click();
-	 return new MathForEveryOnePage();
+	 return new MathForEveryOnePage(driver);
 	 }
 	 public GeneralMathPage clickongeneralMathLink(){
 		 driver.findElement(generalMathLink).click();
@@ -33,23 +33,23 @@ public class HomePage {
 	 }
 	 public K8MathPage clickonk8MathLink() {
 		 driver.findElement(k8MathLink).click();
-		 return new K8MathPage();
+		 return new K8MathPage(driver);
 	 }
 	 public AlgebraPage clickonalgebraLink() {
 		 driver.findElement(algebraLink);
-		 return new AlgebraPage();
+		 return new AlgebraPage(driver);
 	 }
 	 public PlotsAndGeometryPage clickonplotsAndGeometryLink() {
 		 driver.findElement(plotsAndGeometryLink).click();
-		 return new PlotsAndGeometryPage();
+		 return new PlotsAndGeometryPage(driver);
 	 }
 	 public TrigoAndCalculuPage clcikontrigoAndCalculuLink() {
 		 driver.findElement(trigoAndCalculuLink).click();
-		 return new TrigoAndCalculuPage();
+		 return new TrigoAndCalculuPage(driver);
 	 }
 	 public OtherStuffPage clickonotherStuffLink() {
 		 driver.findElement(otherStuffLink).click();
-		 return new OtherStuffPage();
+		 return new OtherStuffPage(driver);
 	 
 		 
 	 }
